@@ -426,15 +426,15 @@ footer {
         margin-right: 0px;
     } 
   
-    .players .item_1{
+    .players .item_1 {
         margin-top: -35em;
     }
  
-    .players .num{ 
+    .players .number { 
         margin-left: 3rem;
     }  
    
-    .players .connect{ 
+    .players .connect { 
         margin-right: 22.5rem;
         margin-left: 3rem;
     }
@@ -529,13 +529,14 @@ footer {
 }
 
 @media (min-width: 1311px ) and (max-width: 1619px) {
-  html{
-      font-size: 90%;
+   html {
+    font-size: 90%;
     }
+	
   .surface { 
     fill: #ffffff;
     width: 12rem;
-	  height: 3.25rem;
+    height: 3.25rem;
     padding-top: 3rem;
    }
   
@@ -544,6 +545,7 @@ footer {
   margin-left: auto; 
   margin-right: auto;
 }
+	
  h1 {
    display: block;
    font-size: 5.625rem; 
@@ -569,6 +571,7 @@ footer {
   .apple_btn {
    margin-right: 1.6rem; 
   }
+	
   .google_btn {
    margin-left: 1.6rem; 
   }
@@ -600,7 +603,7 @@ footer {
  .athlete, .player { 
   font-size: 5rem;
   margin-top: 7.3rem; 
-	margin-right: auto;
+  margin-right: auto;
   margin-left: calc(50% + 2rem);
 } 
   
@@ -612,7 +615,7 @@ footer {
  .service  { 
   font-size: 2.25em;
   margin-left: 0px;
-	margin-right: auto;
+  margin-right: auto;
   margin-top: 3.7rem;
 } 
   
@@ -820,7 +823,7 @@ footer {
         width:  19.3rem; 
     }
    
-    .button{ 
+    .button { 
         display: flex;
     }
    
@@ -925,7 +928,7 @@ footer {
         width: 50%;
     }
    
-    .find_contact .chess{ 
+    .find_contact .chess { 
         margin-left: -100%;
     }
    
