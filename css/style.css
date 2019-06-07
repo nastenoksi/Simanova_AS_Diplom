@@ -1,0 +1,1038 @@
+@font-face {
+  src: url(https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=latin-ext);
+}
+ 
+* {
+   margin: 0;
+   padding: 0;
+}
+ 
+html {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+ 
+header {
+    display: block;
+    box-sizing: border-box;
+    background-color: #090c35;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
+.header { 
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 51, 0.8); 
+    padding-bottom: 10.5rem;
+}
+ 
+.title_1 { 
+    display: flex;
+    flex-wrap: wrap;
+    width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+ 
+h1 {
+    display: block;
+    font-size: 3.5rem;
+    color: #ffffff;
+}
+ 
+.title_2 { 
+    display: block;
+    color: #ffffff;
+    font-size: 3.5rem;
+    margin-left: 4.75rem;
+    margin-top: 3.75rem;
+    margin-bottom: 11rem;
+}
+ 
+.surface_svg { 
+     fill: #ffffff;
+    width: 16rem;
+    height: 4.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4rem;
+}
+ 
+.surface_logo_text {
+     margin-bottom: 17rem;
+}
+ 
+.apple_btn, .google_btn { 
+    display: flex;
+    flex-wrap: wrap;
+    width: 35rem;
+    color: #ffffff;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom right, #7c56dd, #5234a0);
+    background-color: #5e42b0;
+    border-radius: 3rem;
+    box-shadow: 16px 16px 16px #0a0e34;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+ 
+.apple_svg, .google_svg { 
+    fill: #ffffff;
+    width: 2.5rem;
+    height: 3rem;
+    margin-left: 11rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+ 
+.apple_store, .google_play { 
+    display: block;
+    width: 10rem;
+    font-size: 1rem;
+    padding-left: 1rem;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+ 
+.apple, .google_pl { 
+    display: block;
+    font-weight: bold;
+}
+ 
+.athlete, .player { 
+    display: block;
+    width: 27rem;
+    font-size: 6.25rem;
+    color: #ede9e9;
+    box-sizing: border-box;
+    margin-left: 2.5rem;
+    margin-right: 10.5rem;
+}
+ 
+.sportsman, .sportsman-two { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+.item01, .item02, .item03 { 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+ 
+.service  { 
+    width: 21rem;
+    font-size: 3rem;
+    color: #cccccc;
+    margin-left: 1rem;
+    margin-right: auto;
+    margin-top: 10.5rem;
+}
+ 
+.num { 
+    width: 2rem;
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #000000;
+    border-bottom: 4px solid #5e42b0;
+    border-radius: 2px;
+    margin-top: 10.5rem;
+    margin-left: 2.5rem;
+}
+ 
+.connect { 
+    width: 100%;
+    max-width: 35rem;
+    font-size: 2rem;
+    margin-left:  2.5rem;
+    margin-right: 4.5rem;
+    margin-top: 3.5rem;
+    margin-bottom: 7rem;
+    line-height: 1.2;
+}
+ 
+.item01 {
+    background-color: #fafafa;
+    margin-top: -7rem;
+}
+ 
+.item02 {
+    background-color: #f5f4f9;
+}
+ 
+.item03 {
+    background-image: linear-gradient(to bottom right, #7c56dd, #5234a0);
+    background-color: #5e42b0;
+}
+ 
+.trey {
+    border-color: #ffffff;
+}
+ 
+.third { 
+    color: #5e42b0;
+    border-color: #ffffff;
+}
+ 
+.resources { 
+    color: #ffffff;
+}
+ 
+.growth { 
+    background: #090c35;
+}
+ 
+.active { 
+    font-size: 3.5rem;
+    margin-top: 4rem;
+    margin-left: 2.5rem;
+}
+ 
+.be-active, .contact, .work-it { 
+    display: flex;
+    align-items: flex-end;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #bcdbf7;
+}
+ 
+.work { 
+    width: 2rem;
+    color: #ffffff;
+    border-color: #8f7bc8;
+    margin: auto;
+    padding-left: 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ 
+.wrap { 
+    margin-bottom: -1.5rem;
+    margin-left: 2.5rem;
+}
+ 
+.wrapper { 
+    position: relative;
+    width: 8.75rem;
+    height: 8.75rem;
+    background-color: #5e42b0;
+    background-image: linear-gradient(to bottom right, #7c56dd, #5234a0);
+}
+ 
+ 
+footer {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #090c35;
+}
+ 
+.footer { 
+    background-color: #0a0e34;
+    opacity: 0.9;
+    padding-top: 12.5rem;
+    padding-bottom: 1.25rem;
+    box-sizing: border-box;
+}
+ 
+.icon { 
+    width: 9rem;
+    background-image: linear-gradient(to bottom right, #7c56dd, #5234a0);
+    background-color: #5e42b0;
+    border-radius: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+.icon-surface { 
+    width: 7rem;
+    height: 6.5rem;
+    fill: #ffffff;
+    margin: 1.25rem 1rem;
+}
+ 
+.download { 
+    display: block;
+    width: 35.6rem;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7.5rem;
+}
+ 
+.motive {
+    display: block;
+    width: 35.6rem;
+    font-size: 1.75rem;
+    text-align: center;
+    color: #9999cc;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 9.5rem;
+}
+ 
+.logo_fut {
+    margin-top: 5.5rem;
+}
+ 
+@media (min-width: 320px) and  (max-width: 640px){
+    html{
+        font-size: 50%;
+    }
+    header {/*фон заголовка*/
+        background-image: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/football_767.jpg?raw=true); 
+    }
+     
+    .be-active { 
+        background-image: url(https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/img/be-active_320.png?raw=true);
+        width: 100%;
+        height: 351px;
+    }
+     
+    .contact { 
+        background-image: url(https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/img/find-contact_320.png?raw=true);
+        width: 100%;
+        height: 351px;
+    }
+     
+    .work-it { 
+        background-image: url(https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/img/work-it_320.png?raw=true);
+         width: 100%;
+        height: 351px;
+    }
+     
+    footer { 
+        background-image: url(https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/img/game_767.jpg?raw=true);
+    }
+}
+ 
+@media (min-width: 641px) and  (max-width: 960px){
+   
+    html{
+        font-size: 81.5%;
+    }
+
+    .title_1 { 
+        width: 40em;
+    }
+
+    h1 {
+        font-size: 4.9em;
+    }
+   
+    .title_2 { 
+        font-size: 4.9em;
+    }
+   
+    .apple_btn, .google_btn { 
+        width:  24rem; 
+    }
+   
+    .button { 
+        display: flex;
+    }
+   
+    .apple_btn {
+        margin-right: 1.2rem; 
+    }
+
+    .google_btn {
+        margin-left: 1.2rem; 
+    }
+   
+    .apple.svg, .google.svg { 
+        fill: #ffffff;
+        width: 2.7em;
+        height: 3rem;
+        margin-left: auto;  
+    }
+   
+    .apple_store, .google_play { 
+        padding-left: 1rem;
+        box-sizing: border-box;
+        align-self: center;
+        margin-right: auto;
+        margin-top: 0.9rem;
+        margin-bottom: 0.9rem;
+    }
+   
+    .sportsman {
+        margin-left: -12.5rem;
+    }
+   
+    .athlete, .player { 
+        margin-top: 6.6rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 1.8rem;
+    } 
+   
+    .item01 {
+        background-color: transparent;
+        margin-top: -47rem; 
+    }
+   
+    .service  { 
+        font-size: 2.5em;
+        margin-left: 1rem;
+        margin-right: auto;
+        margin-top: 3rem;
+    } 
+
+    .num { 
+        width: 1.5rem;
+        font-size: 1.4em;
+        margin-top: 3rem;
+        margin-left: 22.5rem;
+    }
+ 
+    .connect {    
+        font-size: 1.2rem;
+        margin-left: 22.5rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        line-height: 2.15rem;
+    }
+     
+    .sportsman-two {
+        margin-left: calc(100% - 436px);
+        margin-right: 0px;
+        margin-top: -3em;  
+    }
+   
+    .player { 
+        margin-left: 2.5rem;
+        margin-bottom: 0em; 
+        margin-right: 0px;
+    } 
+  
+    .players .item01{
+        margin-top: -35em;
+    }
+ 
+    .players .num{ 
+        margin-left: 3rem;
+    }  
+   
+    .players .connect{ 
+        margin-right: 22.5rem;
+        margin-left: 3rem;
+    }
+
+    .work { 
+        width: 2rem;
+        font-size: 1.84em;
+        color: #ffffff;
+        border-color: #8f7bc8;
+        margin: auto;
+        padding-left: 1px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+   
+    .active { 
+        width: 30em;  
+        font-size: 6.1rem;
+        margin-top: 4rem;
+        margin-left:  2.5rem;
+    }  
+   
+    .common-work .connect { 
+        width: 50rem;
+        font-size: 2rem;
+        margin-left:  2.5rem;
+        margin-right: auto;
+        margin-top: 3rem;
+        margin-bottom: 7rem;
+    }
+   
+    .footer { 
+        padding-top: 9.6rem;
+    }
+
+    .icon { 
+        width: 10rem;
+    }
+   
+    .icon-surface { 
+        width: 7.8rem;
+        height: 6.7rem;
+        fill: #ffffff;
+        margin: 1.6rem 1rem;  
+    }
+
+    .download { 
+        width: 100%;
+        font-size: 6em;
+        margin-top: 6.2rem;
+        text-align: center;
+    }
+
+    .motive {
+        width: 100%;
+        font-size: 2.76rem;
+        margin-bottom: 22rem;
+        text-align: center;
+    }
+
+    .logo_fut {
+        margin-top: 1rem;
+    }
+ 
+    header {
+        background-image: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/football_1280.jpg?raw=true);
+    }
+    
+    .be-active {
+        background-image: url(https://github.com/Anastasiya-Danilova/project-MQ-16/blob/master/img/be-active_960.jpg?raw=true);
+        width: 100%;
+        height: 584px;
+    }
+   
+    .contact {
+        background-image: url(https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/img/find-contact_960.jpg);
+        width: 100%;
+        height: 584px;
+    }
+   
+    .work-it {
+         background-image: url(https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/img/work-it_960.jpg);
+        width: 100%;
+        height: 584px;
+    }
+   
+    footer { 
+        background-image: url(https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/img/game_1280.jpg);
+    }
+}
+
+@media (min-width: 1311px ) and (max-width: 1619px) {
+  html{
+      font-size: 90%;
+    }
+  .surface { 
+    fill: #ffffff;
+    width: 12rem;
+	  height: 3.25rem;
+    padding-top: 3rem;
+   }
+  
+  .title_1 { 
+  width: 90rem;
+  margin-left: auto; 
+  margin-right: auto;
+}
+ h1 {
+   display: block;
+   font-size: 5.625rem; 
+ }
+
+ .title_2 { 
+   font-size: 5.625rem;
+   margin-bottom: 11rem;
+   align-self: flex-end;
+   text-align: end;
+   margin-left: calc(100% - 63rem); 
+   margin-right: auto;
+   }
+
+  .apple_btn, .google_btn { 
+  width:  19.3rem; 
+  }
+  
+  .button{ 
+   display: flex;
+  }
+  
+  .apple_btn {
+   margin-right: 1.6rem; 
+  }
+  .google_btn {
+   margin-left: 1.6rem; 
+  }
+  
+  .apple_svg, .google_svg { 
+  fill: #ffffff;
+  width: 2.7em;
+  height: 3rem;
+  margin-left: auto;
+  align-self: center;  
+}
+  
+  .apple_store, .google_play { 
+  font-size: 0.87rem;  
+  padding-left: 1rem;
+  box-sizing: border-box;
+  align-self: center;
+  margin-right: auto;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+    
+  .sportsman {
+    margin-left: auto;
+    margin-right: calc(50% + 2rem);
+    margin-top: -12rem;  
+  }
+  
+ .athlete, .player { 
+  font-size: 5rem;
+  margin-top: 7.3rem; 
+	margin-right: auto;
+  margin-left: calc(50% + 2rem);
+} 
+  
+ .item01 {
+  background-color: transparent;
+  margin-top: -43rem; 
+}
+  
+ .service  { 
+  font-size: 2.25em;
+  margin-left: 0px;
+	margin-right: auto;
+  margin-top: 3.7rem;
+} 
+  
+  .num { 
+  width: 1.5rem;
+	font-size: 1.12em;
+  margin-top: 3.7rem;
+  margin-left: calc(50% + 2rem);
+	margin-right: 0.7rem;
+  
+}
+
+  .connect {  
+  font-size: 1.2rem;
+  width: 46rem;
+  margin-left: calc(50% + 2rem);
+  margin-right: auto;
+  margin-top: 1.8rem;
+  margin-bottom: 3.5rem;
+  line-height: 1.75rem;
+}
+  
+   .sportsman-two {
+  margin-left: calc(50% - 2rem);
+  margin-right: 0px;
+  margin-top: -12rem;  
+  }
+  
+  .player { 
+  margin-left: 11.5rem;
+  margin-bottom: 0em; 
+ 
+} 
+ 
+  .players .item01 {
+    margin-top: -37.5em;
+  }
+
+  .players .num { 
+  margin-left: 11.5rem;
+}  
+  
+  .players .connect { 
+  margin-right: 50%;
+  margin-left: 11.5rem;
+  width: 46rem;
+}
+  
+  .be_active,  .find_contact, .work_it {
+    display: flex;  
+  }
+  
+  .common-work .chess { 
+    width: 50%;
+  }
+  
+  .find_contact .chess { 
+    margin-left: -100%;
+  }
+  
+  .wrap { 
+  margin-left:  calc(100% - 5.25rem);
+  margin-bottom: 10rem;
+}
+  
+  .contact  .wrap {
+    margin-left: -5.25rem;
+  }
+  
+  .work { 
+  width: 2rem;
+  font-size: 1.84em;
+  color: #ffffff;
+  border-color: #8f7bc8;
+  margin: auto;
+  padding-left: 1px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+  
+  .active { 
+  width: 100%;  
+  font-size: 5rem;
+  margin-top: 16.25rem;
+  margin-left:  7.3rem;
+}
+  
+ .common-work .connect { 
+  width: 90%;
+  max-width: 550px; 
+  font-size: 1.5rem;
+  margin-left:  7.3rem;
+	margin-right: auto;
+  margin-top: 4.8rem;
+  margin-bottom: 7rem;
+}
+  
+  .bottom {
+    display: flex;
+    flex-wrap: wrap;
+    width: 54.1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 9.4rem;
+  }
+  
+  .icon { 
+    width: 8.1rem;
+    margin-left: 0px;
+    margin-right: 2.37rem;
+}
+
+.icon-surface { 
+  width: 6.4rem;
+  height: 5.7rem;
+}
+
+.download { 
+  width: 100%;
+  font-size: 5rem;
+  margin-left: 0px;
+  margin-right: auto;
+  margin-top: 0px;
+}
+
+.motive {
+  font-size: 1.9rem;
+  margin-left: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+}
+  
+  .footer { 
+  padding-top: 14.3rem;
+  padding-bottom: 3.25rem;
+}
+
+.logo_fut {
+  margin-top: 16.4rem;
+}
+  
+   header {
+    background-image: url(https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/img/football_1920.jpg?raw=true);
+   }
+  
+  .be-active {
+      background-image: url(https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/img/be-active_640.jpg?raw=true);
+     width: 50%;
+     height: 730px;
+    } 
+  
+  .contact {
+      background-image: url(https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/img/find-contact_960.jpg?raw=true);
+      width: 50%;
+      height: 730px;
+      margin-left: 50%
+    }
+  
+  .work-it {
+      background-image: url(https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/img/work-it_960.jpg?raw=true);
+      width: 50%;
+      height: 730px;
+    }
+   
+  footer { 
+   background-image: url(https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/img/game_1920.jpg?raw=true);
+    }
+}
+ 
+@media (min-width: 1620px) and  (max-width: 1920px){
+    html{
+       font-size: 100%;
+    }
+   
+    .surface {
+        fill: #ffffff;
+        width: 12rem;
+        height: 3.25rem;
+        padding-top: 3rem;
+    }
+   
+    .title_1 { 
+        width: 90rem;
+        margin-left: auto; 
+        margin-right: auto;
+    }
+
+    h1 {
+        display: block;
+        font-size: 5.625rem; 
+    }
+ 
+    .title_2 { 
+        font-size: 5.625rem;
+        margin-bottom: 11rem;
+        align-self: flex-end;
+        text-align: end;
+        margin-left: calc(100% - 63rem); 
+        margin-right: auto;
+    }
+ 
+    .apple_btn, .google_btn { 
+        width:  19.3rem; 
+    }
+   
+    .button{ 
+        display: flex;
+    }
+   
+    .apple_btn {
+        margin-right: 1.6rem; 
+    }
+
+    .google_btn {
+        margin-left: 1.6rem; 
+    }
+   
+    .apple_svg, .google_svg { 
+        fill: #ffffff;
+        width: 2.7em;
+        height: 3rem;
+        margin-left: auto;  
+    }
+   
+    .apple_store, .google_play { 
+        font-size: 0.87rem;  
+        padding-left: 1rem;
+        box-sizing: border-box;
+        align-self: center;
+        margin-right: auto;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+     
+    .sportsman {
+        margin-left: auto;
+        margin-right: calc(50% + 3.1rem);
+        margin-top: -12rem;  
+    }
+   
+    .athlete, .player { 
+        font-size: 5rem;
+        margin-top: 7.3rem; 
+        margin-right: auto;
+        margin-left: calc(50% + 3.1rem);
+    } 
+   
+    .item01 {
+        background-color: transparent;
+        margin-top: -43rem; 
+    }
+   
+    .service  { 
+        font-size: 2.25em;
+        margin-left: 0px;
+        margin-right: auto;
+        margin-top: 3.7rem;
+    } 
+
+    .num { 
+        width: 1.5rem;
+        font-size: 1.12em;
+        margin-top: 3.7rem;
+        margin-left: calc(50% + 3.1rem);
+        margin-right: 0.7rem;
+    }
+ 
+    .connect {    
+        font-size: 1.2rem;
+        width: 46rem;
+        margin-left: calc(50% + 3.1rem);
+        margin-right: auto;
+        margin-top: 1.8rem;
+        margin-bottom: 3.5rem;
+        line-height: 1.75rem;
+    }
+   
+    .sportsman-two {
+        margin-left: calc(50% - 3.1rem);
+        margin-right: 0px;
+        margin-top: -12rem;  
+    }
+   
+    .player { 
+        margin-left: 11.5rem;
+        margin-bottom: 0em; 
+    } 
+  
+    .players .item01 {
+        margin-top: -37.5em;
+    }
+ 
+    .players .num { 
+        margin-left: 11.5rem;
+    }  
+   
+    .players .connect { 
+        margin-right: 50%;
+        margin-left: 11.5rem;
+        width: 46rem;
+    }
+   
+    .be_active,  .find_contact, .work_it {
+        display: flex;  
+    }
+   
+    .common-work .chess { 
+        width: 50%;
+    }
+   
+    .find_contact .chess{ 
+        margin-left: -100%;
+    }
+   
+    .wrap { 
+        margin-left:  calc(100% - 5.25rem);
+    margin-bottom: 22.8rem;
+    }
+
+    .contact  .wrap{
+        margin-left: -5.25rem;
+    }
+
+    .work { 
+        width: 2rem;
+        font-size: 1.84em;
+        color: #ffffff;
+        border-color: #8f7bc8;
+        margin: auto;
+        padding-left: 1px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+   
+    .active { 
+        width: 100%;  
+        font-size: 5rem;
+        margin-top: 16.25rem;
+        margin-left:  7.3rem;
+    }
+
+    .wrapper { 
+        position: relative;
+        width: 10.5rem;
+        height: 9.7rem;
+    }
+   
+    .common-work .connect { 
+        width: 100%;
+        max-width: 644px; 
+        font-size: 1.5rem;
+        margin-left:  7.3rem;
+        margin-right: auto;
+        margin-top: 4.8rem;
+        margin-bottom: 7rem;
+    }
+   
+    .bottom {
+        display: flex;
+        flex-wrap: wrap;
+        width: 54.1rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 9.4rem;
+    }
+   
+    .icon { 
+        width: 8.1rem;
+        margin-left: 0px;
+        margin-right: 2.37rem;
+    }
+ 
+    .icon-surface {
+        width: 6.4rem;
+        height: 5.7rem;
+    }
+ 
+    .download { 
+        width: 100%;
+        font-size: 5rem;
+        margin-left: 0px;
+        margin-right: auto;
+        margin-top: 0px;
+    }
+ 
+    .motive {
+        font-size: 1.9rem;
+        margin-left: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+    }
+   
+    .footer { 
+        padding-top: 14.3rem;
+        padding-bottom: 3.25rem;
+    }
+ 
+    .logo_fut {
+        margin-top: 16.4rem;
+    }
+   
+    header {
+        background-image: url(https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/img/football_1920.jpg?raw=true);
+    }
+   
+    .be-active {
+        background-image: url(https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/img/be-active_1024.jpg?raw=true);
+        width: 50%;
+        height: 730px;
+    } 
+   
+    .contact {
+        background-image: url(https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/img/find-contact_1024.jpg?raw=true);
+        width: 50%;
+        height: 730px;
+        margin-left: 50%
+    }
+   
+    .work-it {
+        background-image: url(https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/img/work-it_1024.jpg?raw=true);
+        width: 50%;
+        height: 730px;
+    }
+    
+    footer { 
+        background-image: url(https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/img/game_1920.jpg?raw=true);
+    }
+}
+ 
