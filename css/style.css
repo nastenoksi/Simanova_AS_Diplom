@@ -25,6 +25,7 @@ header {
 .header { 
     box-sizing: border-box;
     background-color: rgba(0, 0, 51, 0.8); 
+    padding-top: 4rem;
     padding-bottom: 10.5rem;
 }
  
@@ -124,7 +125,7 @@ h1 {
     margin-right: 10.5rem;
 }
  
-.sportsman, .sportsman-two { 
+.img_player_1, .img_player_2 { 
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -375,7 +376,7 @@ footer {
         margin-bottom: 0.9rem;
     }
    
-    .sportsman {
+    .img_player_1 {
         margin-left: -12.5rem;
     }
    
@@ -413,7 +414,7 @@ footer {
         line-height: 2.15rem;
     }
      
-    .sportsman-two {
+    .img_player_2 {
         margin-left: calc(100% - 436px);
         margin-right: 0px;
         margin-top: -3em;  
@@ -593,7 +594,7 @@ footer {
   margin-bottom: 1.5rem;
 }
     
-  .sportsman {
+  .img_player_1 {
     margin-left: auto;
     margin-right: calc(50% + 2rem);
     margin-top: -12rem;  
@@ -637,7 +638,7 @@ footer {
   line-height: 1.75rem;
 }
   
-  .sportsman-two {
+  .img_player_2 {
   margin-left: calc(50% - 2rem);
   margin-right: 0px;
   margin-top: -12rem;  
@@ -851,7 +852,7 @@ footer {
         margin-bottom: 1.5rem;
     }
      
-    .sportsman {
+    .img_player_1 {
         margin-left: auto;
         margin-right: calc(50% + 3.1rem);
         margin-top: -12rem;  
@@ -894,7 +895,7 @@ footer {
         line-height: 1.75rem;
     }
    
-    .sportsman-two {
+    .img_player_2 {
         margin-left: calc(50% - 3.1rem);
         margin-right: 0px;
         margin-top: -12rem;  
