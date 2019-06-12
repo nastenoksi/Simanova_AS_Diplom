@@ -162,14 +162,13 @@ header {
 }
  
 .connect { 
-    width: 100%;
-    max-width: 35rem;
-    font-size: 2rem;
-    margin-left:  2.5rem;
-    margin-right: 4.5rem;
-    margin-top: 3.5rem;
-    margin-bottom: 7rem;
-    line-height: 1.2;
+   width: 70%;
+   font-size: 2rem;
+   margin-left:  2.5rem;
+   margin-right: 4.5rem;
+   margin-top: 3.5rem;
+   margin-bottom: 7rem;
+   line-height: 1.2;
 }
  
 .item_1 {
@@ -186,13 +185,8 @@ header {
     background-color: #5e42b0;
 }
  
-.trey {
-    border-color: #ffffff;
-}
- 
 .third { 
     color: #5e42b0;
-    border-color: #ffffff;
 }
  
 .resources { 
@@ -204,44 +198,54 @@ header {
 }
  
 .active { 
-    font-size: 3.5rem;
-    margin-top: 4rem;
-    margin-left: 2.5rem;
+    font-sifont-size: 3.5rem;
+	color: #e6e6e6;
+ 	margin:  0px;
+  	width: 80%;
+}
+
+.chess {
+  	margin-left: 2.5rem;
+  	margin-top: 4rem;
+  	margin-bottom: 10rem; 
+}
+
+.chess .connect {
+	margin-left: 0px;
+ 	margin-bottom: 0px; 
 }
  
 .be-active, .contact, .work-it { 
-    display: flex;
-    align-items: flex-end;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #bcdbf7;
+    display: block;
+	background-color: #bcdbf7;
 }
  
 .work { 
     width: 2rem;
-    color: #ffffff;
-    border-color: #8f7bc8;
-    margin: auto;
-    padding-left: 1px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  	color: #ffffff;
+  	border-color: #8f7bc8;
+  	margin: auto;
+  	padding-left: 1px;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
 }
  
 .wrap { 
-    margin-bottom: -1.5rem;
-    margin-left: 2.5rem;
-}
- 
-.wrapper { 
     position: relative;
-    width: 8.75rem;
-    height: 8.75rem;
-    background-color: #5e42b0;
-    background-image: linear-gradient(to bottom right, #7c56dd, #5234a0);
+  	width: 8.75rem;
+  	height: 8.75rem;
+  	background-color: #5e42b0;
+  	background-image: linear-gradient(to bottom right, #7c56dd, #5234a0);
+  	margin-top: -7.25rem;
+  	margin-left: 2.5rem;
 }
- 
+
+.common-work .number { 
+    	width: 2rem;
+    	color: #ffffff;
+}
  
 footer {
     background-repeat: no-repeat;
