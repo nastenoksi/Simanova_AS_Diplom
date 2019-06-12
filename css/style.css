@@ -1,5 +1,15 @@
 @font-face {
-  src: url(https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=latin-ext);
+  font-family: Open Sans;
+  src: url("https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/fonts/OpenSans-Regular.woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Open Sans;
+  src: url("https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/fonts/OpenSans-Bold.woff");
+  font-weight: 700;
+  font-style: normal;
 }
  
 * {
@@ -10,8 +20,6 @@
 html {
   font-family: 'Open Sans', sans-serif;
   min-width: 320px;
-  margin: 0;
-  padding: 0;
 }
  
 header {
@@ -540,23 +548,24 @@ footer {
    }
   
   .title_1 { 
-  width: 90rem;
-  margin-left: auto; 
-  margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    max-width: 1500px;
+    font-size: 3.5rem; 
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-bottom: 11.8rem;
 }
 	
- h1 {
-   display: block;
-   font-size: 5.625rem; 
- }
-
  .title_2 { 
-   font-size: 5.625rem;
-   margin-bottom: 11rem;
-   align-self: flex-end;
-   text-align: end;
-   margin-left: calc(100% - 63rem); 
-   margin-right: auto;
+   font-size: 3.5rem; 
+   color: #ffffff;
+   margin-left: auto;
+   margin-right: 0px;
+   margin-top: 3.75rem;
    }
 
   .apple_btn, .google_btn { 
