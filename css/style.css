@@ -329,25 +329,7 @@ footer::before {
     header {
         background-image: url(https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/img/football_767.jpg?raw=true); 
     }
-     
-    .be-active { 
-        background-image: url(https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/img/be-active_320.png?raw=true);
-        width: 100%;
-        height: 351px;
-    }
-     
-    .contact { 
-        background-image: url(https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/img/find-contact_320.png?raw=true);
-        width: 100%;
-        height: 351px;
-    }
-     
-    .work-it { 
-        background-image: url(https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/img/work-it_320.png?raw=true);
-         width: 100%;
-        height: 351px;
-    }
-     
+    
     footer { 
         background-image: url(https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/img/game_767.jpg?raw=true);
     }
