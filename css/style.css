@@ -403,7 +403,6 @@ footer::before {
     .img_athlete {
         position: absolute;
     	margin-left: -12.5rem;
-   	margin-top: -5rem;
     }
    
    .athlets, .players {
@@ -459,7 +458,7 @@ footer::before {
         position: absolute;
     	margin-left: calc(100% - 436px);
     	margin-right: 0px;
-    	margin-top: -7.5rem;
+    	
    }
 
    .players li {
