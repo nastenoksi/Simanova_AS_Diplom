@@ -930,10 +930,10 @@ footer::before {
   }
   
   .be-active, .work-it {
-  	margin-left: calc(50vw - 966px);
+  	margin-left: calc(50vw - 968px);
   }
   .contact {
-     	margin-right: calc(50vw - 966px);
+     	margin-right: calc(50vw - 968px);
   }
   
   .find_contact {
