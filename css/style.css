@@ -373,6 +373,7 @@ footer::before {
 
     .apple_btn, .google_btn { 
     	width: 24rem;
+    }
    
     .apple_btn, 
         margin-right: 1.2rem; 
@@ -384,9 +385,10 @@ footer::before {
    
     .apple.svg, .google.svg { 
         fill: #ffffff;
-        width: 2.7em;
-        height: 3rem;
-        margin-left: auto;  
+    	width: 2.7em;
+    	height: 3rem;
+    	margin-left: auto;
+    	align-self: center;  
     }
    
     .apple_store, .google_play { 
