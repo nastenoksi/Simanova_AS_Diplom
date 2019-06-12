@@ -876,7 +876,8 @@ footer::before {
     	position: relative;
     	box-sizing: border-box;
     	padding-top: 7.37rem;
-   
+    }
+	
     .athlete, .player { 
         font-size: 5rem; 
 	margin-right: auto;
