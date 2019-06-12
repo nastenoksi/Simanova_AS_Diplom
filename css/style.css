@@ -575,7 +575,7 @@ footer::before {
   width: 22rem 
   }
   
-  .button{ 
+  .button { 
    flex-wrap: nowrap;
   }
   
@@ -868,8 +868,14 @@ footer::before {
         position: absolute;
     	margin-left: 7rem;
     	margin-right: calc(50% - 38rem);
+	margin-top: -10rem; 
     	   
     }
+	
+   .athlets, .players {
+    	position: relative;
+    	box-sizing: border-box;
+    	padding-top: 7.37rem;
    
     .athlete, .player { 
         font-size: 5rem; 
@@ -915,6 +921,7 @@ footer::before {
         position: absolute;
   	margin-left: calc(70% - 38rem);
   	margin-right: 7rem;
+	margin-top: -12rem;
   	
     }
    
