@@ -1007,7 +1007,7 @@ footer::before {
     }
    
     .bottom {
-        ddisplay: flex;
+        display: flex;
     	flex-wrap: wrap;
     	width: 54.1rem;
     	margin-left: auto;
@@ -1016,7 +1016,7 @@ footer::before {
     }
    
     .icon { 
-        width: 8.1rem;
+        width: 8.3rem;
         margin-left: 0px;
         margin-right: 2.37rem;
     }
