@@ -383,7 +383,7 @@ footer::before {
         margin-left: 1.2rem; 
     }
    
-    .apple.svg, .google.svg { 
+    .apple_svg, .google_svg { 
         fill: #ffffff;
     	width: 2.7em;
     	height: 3rem;
