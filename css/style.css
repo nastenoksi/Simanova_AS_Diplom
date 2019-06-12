@@ -804,7 +804,7 @@ footer::before {
 	letter-spacing: 0.4rem;
    	margin-left: auto; 
    	margin-right: auto;
-   	margin-bottom: 11.8rem;
+   	margin-bottom: 3rem;
     }
  
     .title_2 { 
@@ -933,6 +933,7 @@ footer::before {
   	margin-left: calc(50vw - 968px);
   }
   .contact {
+	box-sizing: border-box;
      	margin-right: calc(50vw - 968px);
   }
   
