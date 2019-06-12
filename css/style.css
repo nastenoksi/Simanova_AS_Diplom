@@ -643,7 +643,7 @@ footer::before {
   
   .img_player {
   position: absolute;
-  	margin-left: calccalc(100% - 38rem);
+  	margin-left: calc(100% - 38rem);
   	margin-right: 7rem;
   	margin-top: -10rem;  
   }
