@@ -440,6 +440,7 @@ footer::before {
         position: absolute;
     	margin-left: calc(100% - 436px);
     	margin-right: 0px;
+	margin-top: -7.5rem;
     	
    }
 
