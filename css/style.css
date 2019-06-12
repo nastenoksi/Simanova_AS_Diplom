@@ -248,32 +248,42 @@ header {
 }
  
 footer {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #090c35;
+    	position: relative;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    	background-color: #090c35;
+    	z-index: 1;
+}
+
+footer::before {
+  	content: "";
+  	background: rgba(0, 0, 51, 0.8);
+  	position: absolute;
+  	width: 100%;
+  	height: 100%;
+  	z-index: -1;
 }
  
 .footer { 
-    background-color: rgba(0, 0, 51, 0.8);
     padding-top: 12.5rem;
-    padding-bottom: 1.25rem;
-    box-sizing: border-box;
+    	padding-bottom: 1.25rem;
+    	box-sizing: border-box;
 }
  
 .icon { 
     width: 9rem;
-    background-image: linear-gradient(to bottom right, #7c56dd, #5234a0);
-    background-color: #5e42b0;
-    border-radius: 20%;
-    margin-left: auto;
-    margin-right: auto;
+    	background-image: linear-gradient(to bottom right, #7c56dd, #5234a0);
+    	background-color: #5e42b0;
+    	border-radius: 20%;
+    	margin-left: auto;
+    	margin-right: auto;
 }
  
 .icon-surface { 
     width: 7rem;
-    height: 6.5rem;
-    fill: #ffffff;
-    margin: 1.25rem 1rem;
+    	height: 6.5rem;
+    	fill: #ffffff;
+    	margin: 1.25rem 1rem;
 }
  
 .download { 
@@ -304,9 +314,18 @@ footer {
 }
  
 @media (min-width: 320px) and  (max-width: 640px){
-    html{
+    html {
         font-size: 50%;
     }
+	
+    .google_btn {
+	 margin-top: 2rem;
+    }
+	
+    .be-active, .contact, .work-it {
+    	height: 110vw;
+    }
+		
     header {
         background-image: url(https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/img/football_767.jpg?raw=true); 
     }
@@ -340,15 +359,7 @@ footer {
         font-size: 81.5%;
     }
 
-    .title_1 { 
-        width: 40em;
-    }
-
-    h1 {
-        font-size: 4.9em;
-    }
-   
-    .title_2 { 
+   .title_1, .title_2 { 
         font-size: 4.9em;
     }
    
@@ -357,14 +368,17 @@ footer {
     }
    
     .button { 
-        display: flex;
+        flex-wrap: nowrap;
     }
+
+    .apple_btn, .google_btn { 
+    	width: 24rem;
    
-    .apple_btn {
+    .apple_btn, 
         margin-right: 1.2rem; 
     }
 
-    .google_btn {
+     .google_btn {
         margin-left: 1.2rem; 
     }
    
@@ -385,19 +399,34 @@ footer {
     }
    
     .img_athlete {
-        margin-left: -12.5rem;
+        position: absolute;
+    	margin-left: -12.5rem;
+   	margin-top: -5rem;
     }
    
-    .athlete, .player { 
-        margin-top: 6.6rem;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 1.8rem;
-    } 
+   .athlets, .players {
+    	box-sizing: border-box;
+      	position: relative;
+   	padding-top: 6.6rem;
+   }
+  
+   .athlete, .player { 
+      	padding-left: 1.8rem;
+   }
+  
+   .athlete {
+      	margin-left: 22.5rem;
+    }
+  
+   .player { 
+      	margin-left: 2.5rem;
+      	margin-bottom: 0em;
+      	margin-right: 0px;
+    }
    
     .item_1 {
         background-color: transparent;
-        margin-top: -47rem; 
+    	margin-top: 4.5rem; 
     }
    
     .service  { 
@@ -406,83 +435,74 @@ footer {
         margin-right: auto;
         margin-top: 3rem;
     } 
-
+    
+    .athlets li {
+   	padding-left: 22.5rem; 
+   }
+	
     .number { 
         width: 1.5rem;
-        font-size: 1.4em;
-        margin-top: 3rem;
-        margin-left: 22.5rem;
+    	font-size: 1.4rem;
+    	margin-top: 3rem;
     }
  
     .connect {    
         font-size: 1.2rem;
-        margin-left: 22.5rem;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        line-height: 2.15rem;
+    	margin-top: 2rem;
+    	margin-bottom: 2rem;
+    	line-height: 2.15rem;
     }
      
     .img_player {
-        margin-left: calc(100% - 436px);
-        margin-right: 0px;
-        margin-top: -3em;  
-    }
-   
-    .player { 
-        margin-left: 2.5rem;
-        margin-bottom: 0em; 
-        margin-right: 0px;
-    } 
-  
-    .players .item_1 {
-        margin-top: -35em;
-    }
- 
-    .players .number { 
-        margin-left: 3rem;
-    }  
-   
-    .players .connect { 
-        margin-right: 22.5rem;
-        margin-left: 3rem;
-    }
-
-    .work { 
-        width: 2rem;
-        font-size: 1.84em;
-        color: #ffffff;
-        border-color: #8f7bc8;
-        margin: auto;
-        padding-left: 1px;
         position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-   
-    .active { 
-        width: 30em;  
-        font-size: 6.1rem;
-        margin-top: 4rem;
-        margin-left:  2.5rem;
-    }  
-   
-    .common-work .connect { 
-        width: 50rem;
-        font-size: 2rem;
-        margin-left:  2.5rem;
-        margin-right: auto;
-        margin-top: 3rem;
-        margin-bottom: 7rem;
-    }
-   
-    .footer { 
-        padding-top: 9.6rem;
-    }
+    	margin-left: calc(100% - 436px);
+    	margin-right: 0px;
+    	margin-top: -7.5rem;
+   }
 
-    .icon { 
-        width: 10rem;
-    }
+   .players li {
+    	padding-left: 3rem;
+    	paddin-right: 22.5rem;
+   } 
+	
+   .work { 
+    	width: 2rem;
+    	font-size: 1.84em;
+    	color: #ffffff;
+    	margin: auto;
+    	padding-left: 1px;
+    	position: absolute;
+    	top: 50%;
+    	left: 50%;
+    	transform: translate(-50%, -50%);
+   }
+
+   .chess {
+  	margin-left: 2.5rem;
+  	margin-top: 4rem;
+  	margin-bottom: 10rem; 
+  }
+
+  .chess .connect {
+ 	max-width: 80%;
+ 	font-size: 1.8rem;
+ 	margin-left: 0px;
+ 	margin-bottom: 0px; 
+  }
+
+  .active { 
+  	font-size: 6.1rem;
+  	margin:  0px;
+  	width: 80%;
+  }
+
+  .footer { 
+    	padding-top: 9.6rem;
+  }
+
+  .icon { 
+    	width: 10rem;
+  }
    
     .icon-surface { 
         width: 7.8rem;
@@ -513,68 +533,49 @@ footer {
         background-image: url(https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/img/football_1280.jpg?raw=true);
     }
     
-    .be-active {
-        background-image: url(https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/img/be-active_960.jpg?raw=true);
-        width: 100%;
-        height: 584px;
-    }
-   
-    .contact {
-        background-image: url(https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/img/find-contact_960.jpg);
-        width: 100%;
-        height: 584px;
-    }
-   
-    .work-it {
-         background-image: url(https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/img/work-it_960.jpg);
-        width: 100%;
-        height: 584px;
-    }
-   
     footer { 
         background-image: url(https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/img/game_1280.jpg);
     }
 }
 
-@media (min-width: 1311px ) and (max-width: 1619px) {
-   html {
-    font-size: 90%;
-    }
+@media (min-width: 961px) and (max-width: 1310px) {
+  html{
+      font-size: 85%;
+  }
 	
   .surface { 
     fill: #ffffff;
     width: 12rem;
     height: 3.25rem;
-    padding-top: 3rem;
    }
   
   .title_1 { 
-    display: flex;
-    flex-wrap: wrap;
-    width: 80%;
-    max-width: 1500px;
-    font-size: 3.5rem; 
-    color: #ffffff;
-    text-transform: uppercase;
-    margin-left: auto; 
-    margin-right: auto;
-    margin-bottom: 11.8rem;
+   display: flex;
+   	flex-wrap: wrap;
+   	width: 80%;
+   	max-width: 1500px;
+   	font-size: 5rem; 
+ 	color: #ffffff;
+   	text-transform: uppercase;
+	letter-spacing: 0.4rem;
+   	margin-left: auto; 
+   	margin-right: auto;
+   	margin-bottom: 11.8rem;
 }
 	
  .title_2 { 
-   font-size: 3.5rem; 
-   color: #ffffff;
-   margin-left: auto;
-   margin-right: 0px;
-   margin-top: 3.75rem;
+   font-size: 5rem; 
+ 	color: #ffffff;
+   	margin-left: auto;
+   	margin-right: 0px;
    }
 
   .apple_btn, .google_btn { 
-  width:  19.3rem; 
+  width: 22rem 
   }
   
   .button{ 
-   display: flex;
+   flex-wrap: nowrap;
   }
   
   .apple_btn {
@@ -604,21 +605,27 @@ footer {
 }
     
   .img_athlete {
-    margin-left: auto;
-    margin-right: calc(50% + 2rem);
-    margin-top: -12rem;  
-  }
+    position: absolute;
+    	margin-left: auto;
+    	margin-right: calc(50% + 2rem);
+    	margin-top: -5rem;  
+   }
   
- .athlete, .player { 
-  font-size: 5rem;
-  margin-top: 7.3rem; 
-  margin-right: auto;
-  margin-left: calc(50% + 2rem);
+  .athlets, .players {
+    	position: relative;
+    	box-sizing: border-box;
+    	padding-top: 7.37rem;
+   }	
+ 
+  .athlete, .player { 
+  	font-size: 5rem; 
+	margin-right: auto;
+  	margin-left: calc(50% + 2rem);
 } 
   
  .item_1 {
   background-color: transparent;
-  margin-top: -43rem; 
+   	margin-top: 6.75rem;
 }
   
  .service  { 
@@ -626,102 +633,116 @@ footer {
   margin-left: 0px;
   margin-right: auto;
   margin-top: 3.7rem;
-} 
+ } 
   
+ .athlets li {
+    	padding-left: calc(50% + 2rem);
+ }
+
   .number { 
   width: 1.5rem;
-  font-size: 1.12em;
-  margin-top: 3.7rem;
-  margin-left: calc(50% + 2rem);
-  margin-right: 0.7rem;
+	font-size: 1.12em;
+  	margin-top: 3.7rem;
+  	margin-left: 0px;
+	margin-right: 0.7rem;
+  }
   
-}
-
-  .connect {  
-  font-size: 1.2rem;
-  width: 46rem;
-  margin-left: calc(50% + 2rem);
-  margin-right: auto;
-  margin-top: 1.8rem;
-  margin-bottom: 3.5rem;
-  line-height: 1.75rem;
-}
+  .connect {    
+  	font-size: 1.2rem;
+  	width: 46rem;
+  	margin-left: 0px;
+  	margin-right: auto;
+  	margin-top: 1.8rem;
+  	margin-bottom: 3.5rem;
+  	line-height: 1.75rem;
+  }
   
   .img_player {
-  margin-left: calc(50% - 2rem);
-  margin-right: 0px;
-  margin-top: -12rem;  
+  position: absolute;
+  	margin-left: calc(100% - 38rem);
+  	margin-right: 7rem;
+  	margin-top: -10rem;  
   }
   
   .player { 
-  margin-left: 11.5rem;
-  margin-bottom: 0em; 
+  margin-left: 6rem;
+  	margin-bottom: 0em; 
+ } 
  
-} 
- 
-  .players .item_1 {
-    margin-top: -37.5em;
-  }
-
   .players .number { 
-  margin-left: 11.5rem;
-}  
+  margin-left: 6rem;
+  }  
   
   .players .connect { 
-  margin-right: 50%;
-  margin-left: 11.5rem;
-  width: 46rem;
+  	margin-right: 50%;
+  	margin-left: 6rem;
+  	width: 46rem;
 }
   
   .be_active,  .find_contact, .work_it {
     display: flex;  
   }
+	
+  .be-active, .work-it {
+ 	 margin-left: calc(50vw - 774px);
+  }
+	
+  .contact {
+     	margin-right: calc(50vw - 774px);
+  }
+  
+  .find_contact {
+    	flex-direction: row-reverse;
+  }
   
   .common-work .chess { 
-    width: 50%;
+    margin-left:  calc(8rem - 70px);
+  	margin-bottom: 0rem; 
   }
   
   .find_contact .chess { 
-    margin-left: -100%;
+    margin-right: 8rem;
   }
   
   .wrap { 
-  margin-left:  calc(100% - 5.25rem);
-  margin-bottom: 10rem;
-}
-  
-  .contact  .wrap {
-    margin-left: -5.25rem;
+    flex: none;
+  	margin-top: 13.8rem;
+  	margin-left: -70px;
+  	margin-bottom: 0rem;
+  	margin-right: 0px;  
   }
   
+   .find_contact  .wrap {
+   	margin-right: -70px;
+  }
+	
   .work { 
-  width: 2rem;
-  font-size: 1.84em;
-  color: #ffffff;
-  border-color: #8f7bc8;
-  margin: auto;
-  padding-left: 1px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+  	width: 2rem;
+  	font-size: 1.84em;
+  	color: #ffffff;
+  	margin: auto;
+  	padding-left: 1px;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  }
   
   .active { 
   width: 100%;  
-  font-size: 5rem;
-  margin-top: 16.25rem;
-  margin-left:  7.3rem;
+  	font-size: 5rem;
+  	margin-top: 6rem;
+  	margin-left:  0px;
 }
   
  .common-work .connect { 
-  width: 90%;
-  max-width: 550px; 
-  font-size: 1.5rem;
-  margin-left:  7.3rem;
-  margin-right: auto;
-  margin-top: 4.8rem;
-  margin-bottom: 7rem;
+  width: 100%;
+ 	max-width: 644px; 
+  	font-size: 1.5rem;
+  	margin-left:  0rem;
+	margin-right: auto;
+  	margin-top: 7.25rem;
+  	margin-bottom: 0rem;
 }
   
   .bottom {
@@ -772,31 +793,12 @@ footer {
     background-image: url(https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/img/football_1920.jpg?raw=true);
    }
   
-  .be-active {
-      background-image: url(https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/img/be-active_640.jpg?raw=true);
-     width: 50%;
-     height: 730px;
-    } 
-  
-  .contact {
-      background-image: url(https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/img/find-contact_960.jpg?raw=true);
-      width: 50%;
-      height: 730px;
-      margin-left: 50%
-    }
-  
-  .work-it {
-      background-image: url(https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/img/work-it_960.jpg?raw=true);
-      width: 50%;
-      height: 730px;
-    }
-   
   footer { 
    background-image: url(https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/img/game_1920.jpg?raw=true);
     }
 }
  
-@media (min-width: 1620px) and  (max-width: 1920px){
+@media (min-width: 1311px) and  (max-width: 1920px) {
     html{
        font-size: 100%;
     }
@@ -805,27 +807,27 @@ footer {
         fill: #ffffff;
         width: 12rem;
         height: 3.25rem;
-        padding-top: 3rem;
-    }
+     }
    
     .title_1 { 
-        width: 90rem;
-        margin-left: auto; 
-        margin-right: auto;
-    }
-
-    h1 {
-        display: block;
-        font-size: 5.625rem; 
+        display: flex;
+   	flex-wrap: wrap;
+   	width: 80%;
+   	max-width: 1500px;
+   	font-size: 5rem; 
+ 	color: #ffffff;
+   	text-transform: uppercase;
+	letter-spacing: 0.4rem;
+   	margin-left: auto; 
+   	margin-right: auto;
+   	margin-bottom: 11.8rem;
     }
  
     .title_2 { 
-        font-size: 5.625rem;
-        margin-bottom: 11rem;
-        align-self: flex-end;
-        text-align: end;
-        margin-left: calc(100% - 63rem); 
-        margin-right: auto;
+        font-size: 5rem; 
+ 	color: #ffffff;
+   	margin-left: auto;
+   	margin-right: 0px;
     }
  
     .apple_btn, .google_btn { 
@@ -833,7 +835,7 @@ footer {
     }
    
     .button { 
-        display: flex;
+        flex-wrap: nowrap;
     }
    
     .apple_btn {
@@ -862,21 +864,21 @@ footer {
     }
      
     .img_athlete {
-        margin-left: auto;
-        margin-right: calc(50% + 3.1rem);
-        margin-top: -12rem;  
+        position: absolute;
+    	margin-left: 7rem;
+    	margin-right: calc(50% - 38rem);
+    	margin-top: -10rem;   
     }
    
     .athlete, .player { 
-        font-size: 5rem;
-        margin-top: 7.3rem; 
-        margin-right: auto;
-        margin-left: calc(50% + 3.1rem);
+        font-size: 5rem; 
+	margin-right: auto;
+  	margin-left: calc(50% + 3.1rem);
     } 
    
     .item_1 {
         background-color: transparent;
-        margin-top: -43rem; 
+  	margin-top: 0rem; 
     }
    
     .service  { 
@@ -885,29 +887,34 @@ footer {
         margin-right: auto;
         margin-top: 3.7rem;
     } 
+	
+    .athlets li {
+    	padding-left: calc(50% + 3.1rem);
+    }
 
     .number { 
         width: 1.5rem;
-        font-size: 1.12em;
-        margin-top: 3.7rem;
-        margin-left: calc(50% + 3.1rem);
-        margin-right: 0.7rem;
-    }
- 
-    .connect {    
-        font-size: 1.2rem;
-        width: 46rem;
-        margin-left: calc(50% + 3.1rem);
-        margin-right: auto;
-        margin-top: 1.8rem;
-        margin-bottom: 3.5rem;
-        line-height: 1.75rem;
+	font-size: 1.12em;
+  	margin-top: 3.7rem;
+  	margin-left: 0px;
+	margin-right: 0.7rem;
+  }
+  
+  .connect {    
+  	font-size: 1.2rem;
+  	max-width: 46rem;
+  	margin-left: 0px;
+  	margin-right: auto;
+  	margin-top: 1.8rem;
+  	margin-bottom: 3.5rem;
+  	line-height: 1.75rem;
     }
    
     .img_player {
-        margin-left: calc(50% - 3.1rem);
-        margin-right: 0px;
-        margin-top: -12rem;  
+        position: absolute;
+  	margin-left: calc(70% - 38rem);
+  	margin-right: 7rem;
+  	margin-top: -12rem; 
     }
    
     .player { 
@@ -915,84 +922,89 @@ footer {
         margin-bottom: 0em; 
     } 
   
-    .players .item_1 {
-        margin-top: -37.5em;
-    }
- 
+    
     .players .number { 
         margin-left: 11.5rem;
-    }  
-   
-    .players .connect { 
-        margin-right: 50%;
-        margin-left: 11.5rem;
-        width: 46rem;
+   }  
+  
+   .players .connect { 
+  	margin-right: 50%;
+  	margin-left: 11.5rem;
+  	width: 46rem;
     }
    
     .be_active,  .find_contact, .work_it {
-        display: flex;  
+       display: flex; 
+  }
+  
+  .be-active, .work-it {
+  	margin-left: calc(50vw - 966px);
+  }
+  .contact {
+     	margin-right: calc(50vw - 966px);
+  }
+  
+  .find_contact {
+    	flex-direction: row-reverse;
     }
    
     .common-work .chess { 
-        width: 50%;
+        margin-left:  calc(8rem - 70px);
+   	margin-bottom: 0rem;
     }
    
     .find_contact .chess { 
-        margin-left: -100%;
+        margin-right: 8rem;
     }
    
     .wrap { 
-        margin-left:  calc(100% - 5.25rem);
-    margin-bottom: 22.8rem;
+        flex: none;
+  	margin-top: 13.8rem;
+  	margin-left: -70px;
+  	margin-bottom: 0rem;
+  	margin-right: 0px;
     }
 
     .contact  .wrap{
-        margin-left: -5.25rem;
+        margin-right: -70px;
     }
 
     .work { 
         width: 2rem;
-        font-size: 1.84em;
-        color: #ffffff;
-        border-color: #8f7bc8;
-        margin: auto;
-        padding-left: 1px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+  	font-size: 1.84em;
+  	color: #ffffff;
+  	margin: auto;
+  	padding-left: 1px;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
     }
    
     .active { 
         width: 100%;  
-        font-size: 5rem;
-        margin-top: 16.25rem;
-        margin-left:  7.3rem;
+  	font-size: 5rem;
+  	margin-top: 6rem;
+  	margin-left:  0px;
     }
 
-    .wrapper { 
-        position: relative;
-        width: 10.5rem;
-        height: 9.7rem;
-    }
-   
     .common-work .connect { 
         width: 100%;
-        max-width: 644px; 
-        font-size: 1.5rem;
-        margin-left:  7.3rem;
-        margin-right: auto;
-        margin-top: 4.8rem;
-        margin-bottom: 7rem;
+  	max-width: 644px; 
+  	font-size: 1.5rem;
+  	margin-left:  0rem;
+	margin-right: auto;
+  	margin-top: 7.25rem;
+  	margin-bottom: 0rem;
     }
    
     .bottom {
-        display: flex;
-        flex-wrap: wrap;
-        width: 54.1rem;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 9.4rem;
+        ddisplay: flex;
+    	flex-wrap: wrap;
+    	width: 54.1rem;
+    	margin-left: auto;
+    	margin-right: auto;
+    	margin-bottom: 9.4rem;
     }
    
     .icon { 
@@ -1034,25 +1046,6 @@ footer {
         background-image: url(https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/img/football_1920.jpg?raw=true);
     }
    
-    .be-active {
-        background-image: url(https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/img/be-active_1024.jpg?raw=true);
-        width: 50%;
-        height: 730px;
-    } 
-   
-    .contact {
-        background-image: url(https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/img/find-contact_1024.jpg?raw=true);
-        width: 50%;
-        height: 730px;
-        margin-left: 50%
-    }
-   
-    .work-it {
-        background-image: url(https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/img/work-it_1024.jpg?raw=true);
-        width: 50%;
-        height: 730px;
-    }
-    
     footer { 
         background-image: url(https://github.com/nastenoksi/Simanova_AS_Diplom/blob/master/img/game_1920.jpg?raw=true);
     }
